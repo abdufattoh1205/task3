@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/calc', (req, res) => {
+app.get('/abdufattoh1205_gmail_com', (req, res) => {
     const { x, y } = req.query;
     
     if(/^[1-9]\d*$/.test(x) && /^[1-9]\d*$/.test(y)){
